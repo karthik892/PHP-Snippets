@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<input type="text" id="inputText" class="form-control" placeholder="Input Text"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<a class="btn btn-default btn-block" onclick="encrypt();">Encrypt</a>
+				</div>
+				<div class="col-md-4">
+					<input type="text" id="keyText" class="form-control" placeholder="key"/>
+				</div>
+				<div class="col-md-4">
+					<a class="btn btn-default btn-block" onclick="decrypt()">Decrypt</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<input type="text" id="outputText" class="form-control" placeholder="Output Text"/>
+				</div>
+			</div>
+		</div>
+		<script>
+			function encrypt() {
+				if (!validInput) return;
+				output = caesar($("#inputText").val().split(""), parseInt($("#keyText").val()));
+				$("#outputText").val(output.join(""));
+			}
+			function decrypt() {
+				if (!validInput) return;
+				output = caesar($("#inputText").val().split(""), parseInt($("#keyText").val()) * -1);
+				$("#outputText").val(output.join(""));
+			}
+			
+			function caesar(input, key) {
+				for (i=0; i < input.length; i++) {
+					c= input[i].charCodeAt(0);
+					c += key;
+					c = c % 255;
+					input[i] = String.fromCharCode(c);
+				}
+				return input;
+			}
+			
+			function validInput() {
+				if ($("#inputText").val() == "" || $("#keyText").val() == "") {
+					alert("Please fill in the input field and the key field");
+					return false;
+				}
+				return true;
+			}
+		</script>
+	</body>
+</html>
