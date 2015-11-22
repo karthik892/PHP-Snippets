@@ -1,0 +1,73 @@
+hangman.swf Movie Report
+-------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1           4062           4062    Scene 1 (AS 2.0 Classes Export Frame)
+      2            445           4507    
+      3           1870           6377    
+      4            584           6961    
+      5            475           7436    
+      6            576           8012    
+      7             69           8081    
+      8            136           8217    
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                               45          1316                  1302
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+btn bg                                60             0                     0
+icon bg                               34             0                     0
+textselecticon                        38             0                     2
+Start Game btn                        48            84                     0
+Menu btn                               0            81                     0
+Exit game btn                          0            83                     0
+Return btn                            37            86                     0
+save btn                              60            83                     0
+Continue btn                          26            83                     0
+Submit_btn                             0            22                     0
+KeyHandler                             0             0                     0
+Gallows                              342            23                    54
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Arial Bold   9 pts               11    
+Verdana                          12    
+Times New Roman                1790     !.BIMPSTUYabcdeghilmnoprstuw
+
+ActionScript Bytes    Location
+------------------    --------
+                54    Scene 1:ActionScript:1
+                 3    Scene 1:Content:1:No instance name assigned(Start Game btn)
+               285    Scene 1:ActionScript:2
+               291    Scene 1:ActionScript:3
+                 5    Scene 1:Content:3:No instance name assigned(Menu btn)
+               539    Scene 1:Content:3:No instance name assigned(Submit_btn)
+                 1    Gallows:Layer 1:1
+                 1    Gallows:Layer 1:2
+                 1    Gallows:Layer 1:3
+                 1    Gallows:Layer 1:4
+                 1    Gallows:Layer 1:5
+                 1    Gallows:Layer 1:6
+                24    Gallows:Layer 1:7
+                24    Gallows:Layer 1:8
+                 1    textselecticon:Layer 1:1
+                 1    textselecticon:Layer 1:2
+                18    Scene 1:ActionScript:4
+                 5    Scene 1:Content:4:No instance name assigned(Continue btn)
+                13    Scene 1:ActionScript:5
+                 5    Scene 1:Content:5:No instance name assigned(Menu btn)
+                 1    Scene 1:ActionScript:6
+                 5    Scene 1:Content:6:No instance name assigned(save btn)
+                20    Scene 1:Content:6:No instance name assigned(Return btn)
+                 5    Scene 1:Content:6:No instance name assigned(Exit game btn)
+                 9    Scene 1:ActionScript:7
+                 1    Scene 1:ActionScript:8
+                43    Scene 1:Content:8:No instance name assigned(Continue btn)
+              1674    ActionScript 2.0 Classes
+
+
+
+
